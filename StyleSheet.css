@@ -1,0 +1,360 @@
+a {
+  display: block;
+  padding: 8px;
+  background-color: rgba(3, 3, 3, 0);
+}
+.Header {
+  text-align: center;
+  font-family: serif;
+  font-size: 60px;
+  color: white;
+  background-size: cover;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(3, 3, 3, 0);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+li {
+  display: inline;
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+.active {
+  background-color: rgba(3, 3, 3, 0.5);
+}
+.Henk {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 2pc;
+  padding: 30px;
+  margin: 100px;
+}
+.Fre {
+  Background: url("Downloads/majestic-lukas-tAUpEIpBUOw-unsplash.jpg");
+  Background-size: cover;
+  background-position: ;
+}
+.Free {
+  Background: url("Downloads/jusdevoyage-ZAFpiVgZNng-unsplash.jpg");
+  Background-size: cover;
+  background-position: ;
+}
+.Fr {
+  Background: url("Downloads/max-itin-7GeprSfVqLQ-unsplash.jpg");
+  Background-size: cover;
+  background-position:50% 35% ;
+}
+.A {
+  text-align: center;
+}
+.B {
+  background-color: rgba(60, 160, 200, 0.3);
+  border-radius: 1pc;
+  padding: 5px;
+}
+/* Bovenkant/Blog Title */
+.Bovenkant {
+  padding: 30px;
+  text-align: center;
+  background: url("Downloads/Banner.jpeg");
+  background-position: 50% 12%;
+  background-size: 110%;
+  color: white;
+}
+
+.Bovenkant h1 {
+  font-size: 50px;
+}
+
+.Bovenkant1 {
+  padding: 30px;
+  text-align: center;
+  background-position: 53% 40%;
+  background-size: 67%;
+  color: #333;
+}
+
+.Bovenkant1 h1 {
+  font-size: 50px;
+  color: white;
+}
+/* Style the top navigation bar */
+.NavigatieBovenkant {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the NavigatieBovenkant links */
+.NavigatieBovenkant a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.NavigatieBovenkant a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.LinkerKolom {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.RechterKolom {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Informatie */
+.Informatie {
+  background-color: White;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Zorgt ervoor dat de Onderkant niet bij de Bovenkant begint */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* De onderkant van de site */
+.onderkant {
+  padding: 30px;
+  text-align: center;
+  background: url("Downloads/Banner.jpeg");
+  background-position: 50% 62%;
+  background-size: 110%;
+  color: white;
+}
+
+/* - wanneer het scherm minder dan 800px breed is, de twee kolommen op elkaar laten stapelen in plaats van naast elkaar. */
+@media screen and (max-width: 800px) {
+  .LinkerKolom, .RechterKolom {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* - wanneer het scherm minder dan 400px breed is, de navigatie links op elkaar stapelen in plaats van naast elkaar. */
+@media screen and (max-width: 400px) {
+  .NavigatieBovenkant a {
+    float: none;
+    width: 100%;
+  }
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.LinkerKolom1 {
+  float: left;
+  width: 33%;
+  padding-left: 20px;
+}
+
+.MiddenKolom1 {
+  float: left;
+  width: 33%;
+  padding-left: 20px;
+}
+
+/* Right column */
+.RechterKolom1 {
+  float: left;
+  width: 33%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg12 {
+  background-color: Blue;
+  width: 100%;
+  padding: 20px;
+  height:200px;
+}
+.fakeimg22 {
+  background-color: Red;
+  width: 100%;
+  padding: 20px;
+  height:200px;
+}
+.ImgFullface {
+  text-align: center;
+  Background: url("Downloads/FullFace.jpg");
+  Background-position: center;
+  Background-size: 100%;
+  width: 80%;
+  padding: 20px;
+  height:150px;
+  background-repeat: no-repeat;
+}
+.ImgOffRoad {
+    text-align: center;
+    Background: url("Downloads/OffRoad.jpg");
+    Background-position: center;
+    Background-size: 100%;
+    width: 80%;
+    padding: 20px;
+    height:150px;
+    background-repeat: no-repeat;
+}
+.ImgModular {
+  position: center;
+  Background: url("Downloads/Modular.jpg");
+  Background-position: center;
+  Background-size: 100%;
+  width: 80%;
+  padding: 20px;
+  height:150px;
+  background-repeat: no-repeat;
+}
+.ImgHalf {
+  text-align: center;
+  Background: url("Downloads/Half.jpg");
+  Background-position: center;
+  Background-size: 150%;
+  width: 80%;
+  padding: 20px;
+  height:150px;
+  background-repeat: no-repeat;
+}
+.ImgOpenface {
+  text-align: center;
+  background: url("Downloads/waldemar-brandt-pXsnmJ_wOHM-unsplash.jpg");
+  Background-position: center;
+  Background-size: 120%;
+  width: 80%;
+  padding: 20px;
+  height:150px;
+  background-repeat: no-repeat;
+}
+.ImgDualsport {
+  text-align: center;
+  Background: url("Downloads/Dual-sport-helmet.jpg");
+  Background-position: center;
+  Background-size: 100%;
+  width: 80%;
+  padding: 20px;
+  height:150px;
+  background-repeat: no-repeat;
+}
+.ImgGloves {
+  text-align: center;
+  Background: url("Downloads/atom-riders-g7YVEeK9LlI-unsplash.jpg");
+  Background-position: center;
+  Background-size: 100%;
+  width: 90%;
+  margin-left: 10px;
+  height:440px;
+  background-repeat: no-repeat;
+}
+.fakeimg52 {
+  background-color: Orange;
+  width: 100%;
+  padding: 20px;
+  height:200px;
+}
+.fakeimg62 {
+  background-color: Pink;
+  width: 100%;
+  padding: 20px;
+  height:200px;
+}
+/* Informatie */
+.Informatie1 {
+  background-color: White;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* De onderkant van de site */
+.onderkant1 {
+  padding: 30px;
+  text-align: center;
+  background: url("Downloads/Banner.jpeg");
+  background-position: 50% 62%;
+  background-size: 110%;
+  color: white;
+}
+
+/* - wanneer het scherm minder dan 800px breed is, de twee kolommen op elkaar laten stapelen in plaats van naast elkaar. */
+@media screen and (max-width: 1400px) {
+  .LinkerKolom1, .RechterKolom1, .MiddenKolom1 {
+    width: 50% 50%;
+    padding: 1%;
+  }
+}
+
+/* - wanneer het scherm minder dan 400px breed is, de navigatie links op elkaar stapelen in plaats van naast elkaar. */
+@media screen and (max-width: 400px) {
+  .NavigatieBovenkant a {
+    float: none;
+    width: 100%;
+  }
+}
+.ABCA {
+  width: 200px;
+  height: 200px;
+}
+.ABCB {
+  width: 150px;
+  height: 150px;
+}
+.LinkerKolom2 {
+  float: left;
+  width: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.LinkerKolom3 {
+  width:100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.ABCD {
+  width: 320px;
+  height: 250px;
+}
+.LinkerKolom5 {
+  float: left;
+  width: 50%;
+}
+.ABCC {
+  width: 100%;
+  height: 100%;
+}
